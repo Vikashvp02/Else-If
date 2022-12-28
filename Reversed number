@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int a;
+  int b;
+  cout << "enter a five digit number "  ;
+  cin >> a >> b;
+  if (a==b){
+  cout << "original and reversed numbers are equal";
+  }
+  else{
+  cout << "original and reversed number are not equal";
+  }
+  
+  return 0;
+}
