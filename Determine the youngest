@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  int a;
+  int b;
+  int c;
+  cout << "enter age "  ;
+  cin >> a >> b >> c;
+  if (a>b && a>c){
+  cout << "Ram is younger brother";
+  }
+  if (b>a && b>c){
+  cout << "Shyam is younger brother";
+  }
+  if (c>a && c>b){
+  	cout << "Ajay is younger brother";
+  }
+  
+   return 0;
+}
